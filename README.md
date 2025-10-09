@@ -1,9 +1,18 @@
  # Data Visualization - Bird Strike Visuals Final Project
-The concept I will be analyzing for this project is aviation bird strikes. While this may seem a little boring at first glance, this dataset includes lengthy information involving the statistics of planes striking birds while flying. Whether it be the plane type, model, damage caused, or any other information regarding the condition and information surrounding the plane and the bird, it is included in thi dataset. In this project I will be exploring the relationships between planes and the untold common incidents of striking birds while in flight. I will visually compare and contrast conditions involving said bird strikes and whether there are commonalities between the planes, number of birds struck, weather, typical damage caused, and other factors related. 
-# Techniques
-A technique I think will be specifically crucial in visualizing these relationships will be graphing. Plotting out and relating seperate masks of this dataframe is going to be greatly important for this project in further exploring any similarities or differences. Interactive plotting is potentially helpful in this situation, as well as the usage of some correlation and fitting, and dashboards.
+
+ ## Project Overview
+
+This project analyzes aviation bird strikes, the events in which planes collide with birds during flight. While this topic might seem niche, bird strikes are quite common and can sometimes cause significant damage to aircraft. The dataset used for this project provides detailed statistics about these incidents, including information on plane types and models, number of birds struck, the damage caused and its cost, weather conditions, bird species involved, and other related factors.
+
+The goal of this project is to explore and visualize relationships and patterns within bird strike occurrences. By comparing factors such as plane type, number of birds struck, weather, altitude, and time frames, the project seeks to identify commonalities and trends that may help improve understanding and awareness of bird strike risks.
+
+## Techniques
+
+Graphing and visualization techniques play a crucial role in this project. Various types of plots, including interactive graphs, correlation analyses, and dashboards, are used to represent and compare different subsets of the data. This visual approach helps to reveal insights about the conditions surrounding bird strikes and illuminate any underlying relationships or anomalies in the data.
+
 ## Installation
-To install dependencies, run:
+
+To set up the required environment for running this project and its visualizations, install dependencies with either:
 
 pip install -r requirements.txt
 
@@ -11,3 +20,9 @@ or, if using conda:
 
 conda env create -f environment.yml
 conda activate bird-strikes-viz
+
+---
+
+## Repository Description
+
+A data visualization and exploratory analysis project focused on aviation bird strikes. This repository contains scripts for cleaning data, generating statistical summaries, and creating interactive visual dashboards that study the patterns, frequency, and impact of bird strikes on aircraft. The project highlights key factors such as plane type, altitude, weather conditions, and temporal trends to provide insights aimed at enhancing aviation safety and wildlife interaction understanding.
