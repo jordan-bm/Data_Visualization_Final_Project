@@ -3,4 +3,3 @@ numpy
 holoviews
 hvplot
 bokeh
-panel
